@@ -4,8 +4,10 @@ body {
 }
 section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 table {
   background-color: white;
@@ -27,4 +29,13 @@ thead th {
 }
 .name {
   text-align: left;
+}
+#pagination {
+  flex-direction: row;
+}
+button {
+  padding: 8px;
+  margin: 16px 2px;
+  background-color: #cdffff;
+  border: none;
 }
